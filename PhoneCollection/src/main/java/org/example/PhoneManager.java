@@ -4,7 +4,6 @@ import java.util.*;
 
 public class PhoneManager {
     private List<Phone> phones;
-   // For O(1) access by ID
     public PhoneManager() {
         phones = new ArrayList<>();
     }
